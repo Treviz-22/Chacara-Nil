@@ -2,11 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Star, CheckCircle, Calendar, MessageCircle, Navigation, ChevronRight, Users, Music } from 'lucide-react';
 import piscinaImg from './assets/piscina.png';
-const COLORS = {
-  primary: '#1A3A26', // Verde Musgo
-  accent: '#C69C3D',  // Dourado
-  bg: '#F9F8F3',      // Creme
-};
 
 const WHATSAPP_URL = "https://wa.me/5511973791786?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Ch%C3%A1cara%20da%20Nil%20e%20verificar%20datas%20dispon%C3%ADveis.";
 
